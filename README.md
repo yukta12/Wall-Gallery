@@ -4,7 +4,7 @@ Wall Gallery is a layout plugin that helps in placing images in an optimal posit
 ## Installation
 
 ```bash
-download the min.js file from the repository
+Download the min.js file from the repository
 ```
 
 ## Usage
@@ -17,13 +17,13 @@ Link the script file to your HTML file
 ```HTML
 STEP2
 In your HTML file
-create a div element that has class of .gallery-row
+Create a div element that has class of .gallery-row
 <div class="gallery-row">
 </div
 ```
 ```HTML
 STEP3
-specifying the images in the columns needed by giving each column class of gallery-column
+Specify the images in the columns needed, giving each column as class of 'gallery-column'
 For example I need 3 images in first column 3 and so on.
 <div class="gallery-row">
    <div class="gallery-column">
@@ -32,11 +32,11 @@ For example I need 3 images in first column 3 and so on.
         <img src="/path/to/img" >
 
     </div>
-</div
+</div>
 ```
 ```HTML
 STEP4
-final code would look as of 4 columns as demo specifies and each column has 3 images.
+Final code would look as of 4 columns as demo specifies and each column has 3 images.
 <div class="gallery-row">
    <div class="gallery-column">
         <img src="/path/to/img" >
@@ -61,12 +61,12 @@ final code would look as of 4 columns as demo specifies and each column has 3 im
         <img src="/path/to/img" >
         <img src="/path/to/img" >
     </div>
-</div
+</div>
 ```
 
 
 ```Javascript
-STEP
+STEP5
 In your custom scripts  initialize the Photogallery as - 
 $( '.gallery-column' ).photoGallery({
         //further code
@@ -74,7 +74,7 @@ $( '.gallery-column' ).photoGallery({
 ```
 
 ```Javascript
-STEP5
+STEP6
 further specifying the responsive columns to be displayed.
 $( '.gallery-column' ).photoGallery({
         responsive :{
@@ -93,7 +93,7 @@ $( '.gallery-column' ).photoGallery({
                 columns: 3,
                 gutter : 0,
             },
-//Desktops with min size of 992px and further needs 3 columns to be displayed
+//Desktops with size of 992px-1200px needs 3 columns to be displayed
             992:{
                 columns: 3,
                 gutter : 0,
