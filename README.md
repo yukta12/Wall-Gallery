@@ -6,24 +6,33 @@ Wall Gallery is a layout plugin that helps in placing images in an optimal posit
 ```bash
 Download the min.js file from the repository
 ```
+## Prerequisites 
+Make sure to link [JQuery](https://code.jquery.com/) first.
+
+## Compatibilty
+As the plugin uses non conflicting classes to bootstrap and other frameworks it can be used along with them.
 
 ## Usage
 
+- STEP1
+
+  Link the script file to your HTML file
 ```
-STEP1
-Link the script file to your HTML file
 <script src="wall-gallery.min.js"></script>
 ```
+- STEP2
+
+  In your HTML file
+Create a div element that has a class of '.gallery-row'
 ```HTML
-STEP2
-In your HTML file
-Create a div element that has class of .gallery-row
 <div class="gallery-row">
 </div
 ```
+- STEP3
+
+  Specify the images in the columns needed, giving each column as a class of 'gallery-column'
+
 ```HTML
-STEP3
-Specify the images in the columns needed, giving each column as class of 'gallery-column'
 For example I need 3 images in first column 3 and so on.
 <div class="gallery-row">
    <div class="gallery-column">
@@ -34,9 +43,11 @@ For example I need 3 images in first column 3 and so on.
     </div>
 </div>
 ```
+- STEP4
+
+  The final code would look as of 4 columns as demo specifies and each column has 3 images.
+
 ```HTML
-STEP4
-Final code would look as of 4 columns as demo specifies and each column has 3 images.
 <div class="gallery-row">
    <div class="gallery-column">
         <img src="/path/to/img" >
@@ -63,19 +74,21 @@ Final code would look as of 4 columns as demo specifies and each column has 3 im
     </div>
 </div>
 ```
+- STEP5
 
+  In your custom scripts  initialize the Photogallery as
 
 ```Javascript
-STEP5
-In your custom scripts  initialize the Photogallery as - 
+ 
 $( '.gallery-column' ).photoGallery({
         //further code
     });
 ```
+- STEP6
+
+  Further specifying the responsive columns to be displayed
 
 ```Javascript
-STEP6
-further specifying the responsive columns to be displayed.
 $( '.gallery-column' ).photoGallery({
         responsive :{
 //small mobile screens with size between 0-600px;
@@ -89,7 +102,7 @@ $( '.gallery-column' ).photoGallery({
                 gutter: 5
             },
 //Small desktops and tabs with a min size of 750px and further needs 3 columns to be displayed
-            750 : {
+            750: {
                 columns: 3,
                 gutter : 0,
             },
@@ -110,5 +123,7 @@ $( '.gallery-column' ).photoGallery({
 
 ##
 Suggestions and addons are welcome.
-## Prerequisites 
-Make sure to link [JQuery](https://code.jquery.com/) first. 
+
+## LICENSE
+[MIT](https://choosealicense.com/licenses/mit/)
+ 
