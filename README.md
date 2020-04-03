@@ -6,6 +6,13 @@ Wall Gallery is a layout plugin that helps in placing images in an optimal posit
 ```bash
 Download the min.js file from the repository
 ```
+
+  #### Or
+
+```bash
+Link the cdn file from https://cdn.jsdelivr.net/gh/yukta12/Wall-Gallery/wall-gallery.min.js
+```
+
 ## Prerequisites 
 Make sure to link [JQuery](https://code.jquery.com/) first.
 
@@ -23,6 +30,8 @@ Find the output of demo here [link](https://yukta12.github.io/Wall-Gallery/demo/
   Link the script file to your HTML file
 ```
 <script src="wall-gallery.min.js"></script>
+OR
+<script src = "https://cdn.jsdelivr.net/gh/yukta12/Wall-Gallery/wall-gallery.min.js"> </script>
 ```
 - STEP2
 
