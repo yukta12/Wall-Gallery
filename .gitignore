@@ -1,3 +1,10 @@
-/node_modules
-.idea/*
-.vscode/*
+
+### IDE ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+
+### VS Code ###
+.vscode/
