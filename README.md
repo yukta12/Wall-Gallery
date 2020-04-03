@@ -26,7 +26,7 @@ These are the steps to perform while using the plugin. The detailed usage of the
 
   In your HTML file
 Create a div element that has a class of '.gallery-row'
-```HTML
+```
 <div class="gallery-row">
 </div
 ```
@@ -34,7 +34,7 @@ Create a div element that has a class of '.gallery-row'
 
   Specify the images in the columns needed, giving each column as a class of 'gallery-column'
 
-```HTML
+```
 For example I need 3 images in first column 3 and so on.
 <div class="gallery-row">
    <div class="gallery-column">
@@ -49,7 +49,7 @@ For example I need 3 images in first column 3 and so on.
 
   The final code would look as of 4 columns as demo specifies and each column has 3 images.
 
-```HTML
+```
 <div class="gallery-row">
    <div class="gallery-column">
         <img src="/path/to/img" >
@@ -80,8 +80,7 @@ For example I need 3 images in first column 3 and so on.
 
   In your custom scripts  initialize the Photogallery as
 
-```Javascript
- 
+```js
 $( '.gallery-column' ).photoGallery({
         //further code
     });
@@ -90,7 +89,7 @@ $( '.gallery-column' ).photoGallery({
 
   Further specifying the responsive columns to be displayed
 
-```Javascript
+```js
 $( '.gallery-column' ).photoGallery({
         responsive :{
 //small mobile screens with size between 0-600px;
