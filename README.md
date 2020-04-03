@@ -14,6 +14,8 @@ As the plugin uses non conflicting classes to bootstrap and other frameworks it 
 
 ## Usage
 
+These are the steps to perform while using the plugin. The detailed usage of the plugin can be found in the demo folder in the repository.
+
 - STEP1
 
   Link the script file to your HTML file
