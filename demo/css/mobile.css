@@ -1,0 +1,40 @@
+/*Large Devices*/
+@media(min-width: 1200px){
+    /*This is working fine*/
+}
+
+/*Medium Devices (Landscape Tablets and Medium Desktops)*/
+@media (min-width: 992px) and (max-width: 1199px){
+    /*This is working fine*/
+}
+
+/*small devices (Portrait Tablets and Small Desktops)*/
+@media(min-width: 768px) and (max-width: 991px){
+    .about-me{
+        display: grid;
+        grid-template-columns: 1fr;
+    
+    }
+}
+
+/*small devices (Portrait Tablets and Small Desktops)*/
+@media(max-width: 767px){
+    .logo{
+        padding-top: 10px;
+        font-size: 1.5em;
+    }
+    .menu{
+        font-size: .9em;
+    }
+    .text{
+        font-size: 1.3em;
+    }
+     .text-lower{
+        font-size: 1em;
+    }
+   .about-me{
+        display: grid;
+        grid-template-columns: 1fr;
+    
+    }
+}
