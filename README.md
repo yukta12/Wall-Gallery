@@ -16,6 +16,8 @@ As the plugin uses non conflicting classes to bootstrap and other frameworks it 
 
 These are the steps to perform while using the plugin. The detailed usage of the plugin can be found in the demo folder in the repository.
 
+Find the output of demo here [link](https://yukta12.github.io/Wall-Gallery/demo/)
+
 - STEP1
 
   Link the script file to your HTML file
@@ -25,14 +27,14 @@ These are the steps to perform while using the plugin. The detailed usage of the
 - STEP2
 
   In your HTML file
-Create a div element that has a class of '.gallery-row'
+Create a div element that has a class of gallery-row
 ```
 <div class="gallery-row">
-</div
+</div>
 ```
 - STEP3
 
-  Specify the images in the columns needed, giving each column as a class of 'gallery-column'
+  Specify the images in the columns needed, giving each column as a class of gallery-column
 
 ```
 For example I need 3 images in first column 3 and so on.
