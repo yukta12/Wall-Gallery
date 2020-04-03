@@ -1,8 +1,11 @@
+//JQUERY READY FUNCTION
 $( document ).ready(function() {
+    //Initializing the gallery
     $( '.gallery-column' ).photoGallery({
-        columns: 4,
+        //providing required parameters
         responsive :{
             0:{
+                //requires only 1 column on small devices
                 columns : 1,
             },
             600:{
@@ -16,7 +19,8 @@ $( document ).ready(function() {
             },
             1200 : {
                 columns : 3,
-					gutter : 2,
+                //spacing between the gallery images
+                gutter : 2,
             }
         }
     });
